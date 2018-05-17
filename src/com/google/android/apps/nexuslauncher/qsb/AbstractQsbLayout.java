@@ -199,7 +199,7 @@ public abstract class AbstractQsbLayout extends FrameLayout implements LauncherL
                 LauncherAppsCompat.getInstance(getContext())
                         .showAppDetailsForProfile(new ComponentName(GoogleQSB, ".SearchActivity"), Process.myUserHandle());
             } catch (PackageManager.NameNotFoundException ignored) {
-                getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com")));
+                getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.baidu.com")));
             }
         }
     }
